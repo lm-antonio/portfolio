@@ -1,0 +1,58 @@
+body {
+	background-image: url(../images/bgfinal.jpg);
+	/*background-color: #4885ed;*/
+	background-size: cover;
+	-webkit-background-size: cover; /*for google chrome*/
+	-moz-background-size: cover; /* for mozilla firefox*/
+	-o-background-size: cover; /* for opera web browser*/
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: #fff; /*white*/
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 0;
+	background-color: #333; /*off-black; use either off-white or off-black to background your text. Straight up balck or white does not look good*/
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-color: white;
+	border-style:double;
+	border-width: 5px;
+}
+
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: maroon;
+	background-color: rgba(254,251,247, 0.8)
+}
+
+#me {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border-width: 7px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 200px;
+	}
+
+.bio {
+	width: 75%;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: rgba(51,51,51, 0.8);
+	text-align: center;
+	font-family: 'K2D', sans-serif;
+		
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
